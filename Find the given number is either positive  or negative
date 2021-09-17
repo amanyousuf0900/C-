@@ -1,0 +1,21 @@
+//Find the given number is either positive  or negative
+#include <stdio.h>
+main()
+{
+int num1;
+printf("Enter the number");
+scanf("%d",&num1);
+
+if (num1>0){
+printf("Positive");
+}
+else if (num1<0){
+printf("Negative");
+}
+else
+{
+	printf("number is neither positive nor negative");
+}	
+
+	
+}
