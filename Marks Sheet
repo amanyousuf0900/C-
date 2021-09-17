@@ -1,0 +1,43 @@
+#include <stdio.h>
+main()
+{
+float Phython;
+float C;
+float Electronic;
+float Arduino;
+float Percentage;
+float sum;
+float average;
+printf("Aman");
+printf("Enter the number of Phython:");
+scanf("%f",&Phython);
+printf("Enter the number of C++:");
+scanf("%f",&C);
+printf("Enter the number of Electronic :");
+scanf("%f",&Electronic);
+printf("Enter the number of Arduino :");
+scanf("%f",&Arduino);
+//printf("Total Number :");
+sum=Phython+C+Electronic+Arduino;
+Percentage=(sum/400)*100;
+printf("total percentage %f \n",Percentage);
+
+if (Percentage > 80){
+	printf("Grade A+");
+}
+else if (Percentage > 70 && Percentage <80){
+printf("Grade A");
+}
+else if (Percentage > 60 && Percentage <70){
+printf("Grade B");
+}
+else if (Percentage > 50 && Percentage <60){
+printf("Grade C");
+}
+else {
+	printf("Fail");
+} 
+
+	
+	
+}
